@@ -1,0 +1,19 @@
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/byebug-11.0.0/ext/byebug
+/usr/bin/ruby2.3 -r ./siteconf20190308-8160-sct8pp.rb extconf.rb
+creating Makefile
+
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190308-8160-1tlgq0g/byebug

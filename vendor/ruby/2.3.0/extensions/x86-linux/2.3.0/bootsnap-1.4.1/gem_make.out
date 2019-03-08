@@ -1,0 +1,17 @@
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/bootsnap-1.4.1/ext/bootsnap
+/usr/bin/ruby2.3 -r ./siteconf20190308-8160-dn35sr.rb extconf.rb
+creating Makefile
+
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/bootsnap-1.4.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/bootsnap-1.4.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+bootsnap.o: In function `atomic_write_cache_file':
+/home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/bootsnap-1.4.1/ext/bootsnap/bootsnap.c:479: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+
+current directory: /home/doc/Documents/for_tech_dynamism/interview_test/simple_job_board/vendor/ruby/2.3.0/gems/bootsnap-1.4.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20190308-8160-1p6iw9u/bootsnap
