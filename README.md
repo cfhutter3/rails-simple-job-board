@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version:
+	ruby-2.3.1
 
-Things you may want to cover:
+Rails version:
+	Rails 5.2.2
 
-* Ruby version
+Check Gemfile for dependencies, but all binaries
+should be already installed in vendor/
 
-* System dependencies
+To start server, run `bin/rails s` in this directory
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Web server runs locally on port 3000
