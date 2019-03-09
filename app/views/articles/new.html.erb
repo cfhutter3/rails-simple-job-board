@@ -3,14 +3,14 @@
 <%= form_with scope: :article, url: articles_path, local: true do |form| %>
 
   <% if @article.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class="alert-danger">
       <h2>
         <%= pluralize(@article.errors.count, "error") %> prohibited
         this article from being saved:
       </h2>
-      <ul>
+      <ul class="list-group-item-danger">
         <% @article.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
+          <li class="list-unstyled"><%= msg %></li>
         <% end %>
       </ul>
     </div>
